@@ -5,13 +5,13 @@ package.domain = org.myapp
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 1.0.0
-requirements = python3==3.11.4,kivy==2.3.0
+requirements = kivy
 orientation = portrait
 fullscreen = 0
 android.permissions = INTERNET
-android.api = 33
+android.api = 31
 android.minapi = 21
-android.ndk = 25b
+android.ndk = 25c
 android.accept_sdk_license = True
 android.archs = arm64-v8a
 
